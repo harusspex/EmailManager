@@ -8,6 +8,17 @@ import model.EmailMessage;
 import model.EmailAttachment;
 import model.ContentType;
 
+/**
+ * Constrói objetos EmailMessage de forma gradual e organizada,
+ * utilizando o padrão de projeto Builder.
+ *
+ * Permite configurar os dados da mensagem, adicionar destinatários
+ * e anexos e definir o formato do conteúdo antes de sua criação.
+ *
+ * Facilita a criação de mensagens sem a necessidade de
+ * construtores com muitos parâmetros.
+ */
+
 public class EmailMessageBuilder {
 
   private String sender;

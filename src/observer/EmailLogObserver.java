@@ -7,6 +7,15 @@ import repository.EmailRepository;
 
 import java.util.List;
 
+/**
+ * Observador responsável por registrar os resultados das operações
+ * de envio de e-mails no histórico do sistema.
+ *
+ * Ao receber um evento, utiliza o EmailHistoryRepository para
+ * armazenar o resultado, mantendo a responsabilidade de persistência
+ * separada da lógica de notificação.
+ */
+
 public class EmailLogObserver implements EmailObserver {
 
   private final EmailRepository repository;

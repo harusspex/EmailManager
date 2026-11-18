@@ -3,6 +3,16 @@ package service;
 
 import java.util.List;
 
+/**
+ * Serviço responsável por simular o envio de mensagens de e-mail.
+ *
+ * Apresenta no console as informações da mensagem, incluindo
+ * remetente, destinatários, assunto, formato e conteúdo.
+ *
+ * É utilizado para testar e demonstrar o funcionamento do sistema
+ * sem a necessidade de conexão com um servidor SMTP externo.
+ */
+
 public class MockMailService {
 
   public boolean sendMail(

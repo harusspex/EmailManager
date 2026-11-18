@@ -1,6 +1,16 @@
 
 package model;
 
+/**
+ * Representa um arquivo anexado a uma mensagem de e-mail.
+ *
+ * Armazena o nome do arquivo, seu caminho de localização
+ * e o tipo de conteúdo utilizado para identificá-lo.
+ *
+ */
+
+
+
 public class EmailAttachment {
 
   private String fileName;

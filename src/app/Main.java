@@ -1,7 +1,6 @@
 
 package app;
 
-import adapter.EmailSender;
 import controller.EmailController;
 import factory.MockSenderFactory;
 import facade.EmailFacade;
@@ -20,6 +19,18 @@ import template.EmailTemplateService;
 import validation.EmailValidator;
 
 import java.util.List;
+
+/**
+ * Classe principal da aplicação Email Manager.
+ *
+ * Responsável por inicializar e configurar os componentes do sistema,
+ * realizar a integração entre os padrões de projeto implementados e
+ * demonstrar as principais funcionalidades de gerenciamento e envio
+ * de e-mails.
+ *
+ * A aplicação utiliza envio simulado para demonstrar o funcionamento
+ * do sistema sem depender de um servidor SMTP externo.
+ */
 
 public class Main {
 

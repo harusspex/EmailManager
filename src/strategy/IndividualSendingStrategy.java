@@ -9,6 +9,17 @@ import model.EmailSendResult;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Implementa a estratégia de envio individual de e-mails.
+ *
+ * Cria uma mensagem separada para cada destinatário, preservando
+ * as informações originais, como remetente, assunto, conteúdo,
+ * formato e anexos.
+ *
+ * Cada mensagem é enviada individualmente pelo mecanismo
+ * disponibilizado através da interface EmailSender.
+ */
+
 public class IndividualSendingStrategy implements EmailSendingStrategy {
 
   @Override

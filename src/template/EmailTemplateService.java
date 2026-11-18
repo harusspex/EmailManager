@@ -9,6 +9,17 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Serviço responsável pelo gerenciamento e utilização dos modelos
+ * predefinidos de mensagens de e-mail.
+ *
+ * Permite registrar modelos, recuperá-los pelo nome e utilizá-los
+ * para construir novas mensagens por meio do EmailMessageBuilder.
+ *
+ * Os modelos são armazenados em uma estrutura de mapa, utilizando
+ * seus nomes como identificadores.
+ */
+
 public class EmailTemplateService {
 
   private final Map<String, EmailTemplate> templates = new HashMap<>();

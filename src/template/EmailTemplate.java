@@ -3,6 +3,17 @@ package template;
 
 import model.ContentType;
 
+/**
+ * Representa um modelo predefinido de mensagem de e-mail.
+ *
+ * Armazena informações reutilizáveis, como nome, assunto,
+ * conteúdo e formato da mensagem, permitindo criar diferentes
+ * e-mails a partir de uma estrutura previamente definida.
+ *
+ * Seus atributos são imutáveis após a criação do objeto,
+ * garantindo que o modelo mantenha suas configurações originais.
+ */
+
 public class EmailTemplate {
 
     private final String name;

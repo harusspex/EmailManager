@@ -6,6 +6,18 @@ import model.EmailMessage;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Responsável por validar os dados de uma mensagem de e-mail
+ * antes que ela seja encaminhada para o processo de envio.
+ *
+ * Verifica a presença das informações obrigatórias, como remetente,
+ * destinatários, assunto, conteúdo e tipo de conteúdo.
+ *
+ * Retorna uma lista com as mensagens de erro encontradas,
+ * permitindo identificar os problemas sem interromper a validação
+ * na primeira inconsistência.
+ */
+
 public class EmailValidator {
 
     public List<String> validate(EmailMessage email) {

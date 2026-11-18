@@ -10,6 +10,15 @@ import model.ContentType;
 
 import java.util.List;
 
+/**
+ * Controlador responsável por coordenar as operações de composição
+ * e envio de mensagens de e-mail.
+ *
+ * Utiliza o EmailMessageBuilder para construir mensagens e a
+ * EmailFacade para encaminhar as operações de envio, mantendo
+ * a separação entre a camada de controle e as regras de negócio.
+ */
+
 public class EmailController {
 
   private final EmailFacade emailFacade;

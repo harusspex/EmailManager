@@ -6,6 +6,15 @@ import model.EmailSendResult;
 import model.EmailStatus;
 import service.MockMailService;
 
+/**
+ esponsável por integrar o serviço de envio simulado * Adaptador r
+ * ao contrato definido pela interface EmailSender.
+ *
+ * Utiliza o padrão Adapter para converter os dados de EmailMessage
+ * nos parâmetros aceitos pelo MockMailService e transformar o retorno
+ * da operação em um EmailSendResult.
+ */
+
 public class MockEmailAdapter implements EmailSender {
 
   private MockMailService mailService;
