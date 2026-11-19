@@ -1,0 +1,14 @@
+/adapter/
+/app/
+/builder/
+/controller/
+/facade/
+/factory/
+/model/
+/module-info.class
+/observer/
+/repository/
+/service/
+/strategy/
+/template/
+/validation/

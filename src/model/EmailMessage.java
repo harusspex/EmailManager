@@ -1,18 +1,7 @@
-
 package model;
 
 import java.util.ArrayList;
 import java.util.List;
-
-/**
- * Representa uma mensagem de e-mail e suas informações.
- *
- * Armazena remetente, destinatários, assunto, conteúdo,
- * formato da mensagem e anexos.
- *
- * É utilizada pelos componentes responsáveis pela composição,
- * validação e processamento dos e-mails.
- */
 
 public class EmailMessage {
 

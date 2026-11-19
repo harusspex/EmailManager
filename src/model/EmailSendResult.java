@@ -1,14 +1,6 @@
-
 package model;
 
 import java.time.LocalDateTime;
-
-/**
- * Representa o resultado de uma operação de envio de e-mail.
- *
- * Armazena a mensagem processada, seu status e o horário
- * de envio, quando realizado com sucesso.
- */
 
 public class EmailSendResult {
 
